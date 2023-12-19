@@ -1,0 +1,14 @@
+if Vessel_Finger then
+local args = {
+    [1] = {
+        ["Object"] = "Vessel_Finger",
+        ["Action"] = "Use"
+    }
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Main_UI.Handle.Server.Inv:FireServer(unpack(args))
+end
+
+if not Vessel_Finger then --// use dex and find path to vessel finger
+--// ServerHop
+end
